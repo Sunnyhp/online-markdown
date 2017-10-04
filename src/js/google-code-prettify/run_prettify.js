@@ -274,7 +274,7 @@ var IN_GLOBAL_SCOPE = false;
       + '/skins/' + encodeURIComponent(skins[i]) + '.css');
   }
   skinUrls.push(LOADER_BASE_URL + '/prettify.css');
-  loadStylesheetsFallingBack(skinUrls);
+//  loadStylesheetsFallingBack(skinUrls);
 
   var prettyPrint = (function () {
     /**
