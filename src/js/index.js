@@ -24,8 +24,8 @@ $.each(kv, function(index, item) {
 });
 
 // 方便跨域加载资源
-if (/\.barretlee\.com$/.test(location.hostname)) {
-  document.domain = 'barretlee.com';
+if (/\.mazhuang\.org$/.test(location.hostname)) {
+  document.domain = 'mazhuang.org';
 }
 
 
@@ -97,9 +97,9 @@ var OnlineMarkdown = {
     var val = converter.makeHtml($('#input').val());
     $('#output .wrapper').html(val);
     PR.prettyPrint();
-    $('#outputCtt li').each(function() {
-      $(this).html('<span><span>' + $(this).html() + '</span></span>');
-    });
+//    $('#outputCtt li').each(function() {
+//      $(this).html('<span><span>' + $(this).html() + '</span></span>');
+//    });
   }
 };
 
