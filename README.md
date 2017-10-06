@@ -2,6 +2,8 @@
 
 用于格式化 Markdown，粘贴到微信公众号的工具。
 
+![screenshots](./screenshots/screenshot.png)
+
 ## 在线使用地址
 
 <http://md.mazhuang.org>

@@ -31,7 +31,8 @@ if (/\.mazhuang\.org$/.test(location.hostname)) {
 
 var converter =  new showdown.Converter({
   extensions: ['prettify', 'tasklist', 'footnote'],
-  tables: true
+  tables: true,
+  strikethrough: true
 });
 /**
  * [OnlineMarkdown description]

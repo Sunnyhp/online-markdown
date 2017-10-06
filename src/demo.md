@@ -8,12 +8,14 @@ GitHub 地址：<https://github.com/mzlogin/online-markdown>
 
 ## Feature
 
-- 适配 Android
-- 支持代码不转行，横向滚动条
+- 支持常用 Markdown 标记
+- 支持代码横向滚动条
 - 支持页面主题和代码样式配置
 - 支持列表嵌套内容和列表
 
-## 代码示例
+## 常用 Markdown 标记示例
+
+### 代码示例
 
 ```java
 public class Test {
@@ -23,17 +25,52 @@ public class Test {
 }
 ```
 
-## 表格示例
+### 列表示例
+
+**有序列表**
+
+1. 有序列表 one
+
+    * 嵌套列表 a
+    * 嵌套列表 b
+
+2. 有序列表 two
+
+    嵌套内容在此
+
+3. 有序列表 three
+
+**无序列表**
+
+- 无序列表 one
+
+- 无序列表 two
+
+### 表格示例
 
 | 品类 | 个数 | 备注 |
 |------|------|------|
 | 苹果 | 1    | nice |
 | 橘子 | 2    | job  |
 
----
+### 字体标记示例
+
+正文
+
+**加黑**
+
+*斜体*
+
+~~删除线~~
+
+### 图片示例
 
 我的微信公众号
 
 ![微信公众号](http://mazhuang.org/assets/images/qrcode.jpg)
+
+### 链接示例
+
+[@mzlogin](https://github.com/mzlogin)
 
 [1]: https://github.com/barretlee/online-markdown
