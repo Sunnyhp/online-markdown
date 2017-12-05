@@ -1,18 +1,20 @@
 .wrapper {
-  font-size: 16px;
-  font-family: Avenir, -apple-system-font, 微软雅黑, sans-serif;
+  font-size: 17px;
+  font-family: sans-serif, Avenir, -apple-system-font, 微软雅黑;
 }
 .wrapper p {
-  font-size: 16px;
+  font-size: 17px;
   white-space: pre-line;
-  line-height: 30px;
-  color: #4a4a4a;
+  line-height: 35px;
+  color: #111111;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 .wrapper blockquote {
   line-height: 22px;
 }
 .wrapper blockquote p {
-  font-size: 14px;
+  font-size: 17px;
 }
 .wrapper h1 {
   font-size: 28px;
